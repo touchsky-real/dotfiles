@@ -1,0 +1,226 @@
+{
+    "apps": [
+        {
+            "Name": "7zip",
+            "Info": "",
+            "Version": "26.01",
+            "Source": "main",
+            "Updated": "2026-04-29T10:44:25.1107525+08:00"
+        },
+        {
+            "Name": "alacritty",
+            "Info": "",
+            "Version": "0.17.0",
+            "Source": "extras",
+            "Updated": "2026-04-08T17:03:28.0324575+08:00"
+        },
+        {
+            "Name": "aria2",
+            "Info": "",
+            "Version": "1.37.0-1",
+            "Source": "main",
+            "Updated": "2026-01-21T12:18:48.3501392+08:00"
+        },
+        {
+            "Name": "CascadiaCode-NF",
+            "Info": "",
+            "Version": "3.4.0",
+            "Source": "nerd-fonts",
+            "Updated": "2026-04-08T17:07:55.4360877+08:00"
+        },
+        {
+            "Name": "cc-switch",
+            "Info": "",
+            "Version": "3.15.0",
+            "Source": "extras",
+            "Updated": "2026-05-19T17:17:18.4224348+08:00"
+        },
+        {
+            "Name": "claude-code",
+            "Info": "",
+            "Version": "2.1.146",
+            "Source": "main",
+            "Updated": "2026-05-21T22:06:07.3309872+08:00"
+        },
+        {
+            "Name": "clink",
+            "Info": "",
+            "Version": "1.9.23",
+            "Source": "main",
+            "Updated": "2026-05-21T22:06:29.0000603+08:00"
+        },
+        {
+            "Name": "cloc",
+            "Info": "",
+            "Version": "2.08",
+            "Source": "main",
+            "Updated": "2026-02-28T20:26:01.9332396+08:00"
+        },
+        {
+            "Name": "codex",
+            "Info": "",
+            "Version": "0.132.0",
+            "Source": "main",
+            "Updated": "2026-05-21T22:06:55.517725+08:00"
+        },
+        {
+            "Name": "crystaldiskinfo",
+            "Info": "",
+            "Version": "9.9.0",
+            "Source": "extras",
+            "Updated": "2026-05-21T22:07:00.294261+08:00"
+        },
+        {
+            "Name": "dark",
+            "Info": "",
+            "Version": "3.14.1",
+            "Source": "main",
+            "Updated": "2026-01-21T12:51:04.5451837+08:00"
+        },
+        {
+            "Name": "deno",
+            "Info": "",
+            "Version": "2.7.14",
+            "Source": "main",
+            "Updated": "2026-04-29T10:54:37.2684882+08:00"
+        },
+        {
+            "Name": "everything",
+            "Info": "",
+            "Version": "1.4.1.1032",
+            "Source": "extras",
+            "Updated": "2026-02-28T20:26:11.3534685+08:00"
+        },
+        {
+            "Name": "ffmpeg",
+            "Info": "",
+            "Version": "8.1.1",
+            "Source": "main",
+            "Updated": "2026-05-10T10:31:12.7008265+08:00"
+        },
+        {
+            "Name": "geekuninstaller",
+            "Info": "",
+            "Version": "1.5.3.170",
+            "Source": "extras",
+            "Updated": "2026-01-21T13:15:54.0100933+08:00"
+        },
+        {
+            "Name": "git",
+            "Info": "",
+            "Version": "2.54.0",
+            "Source": "main",
+            "Updated": "2026-04-21T17:07:54.5144727+08:00"
+        },
+        {
+            "Name": "mpv",
+            "Info": "",
+            "Version": "0.41.0",
+            "Source": "extras",
+            "Updated": "2026-03-19T13:09:47.7686055+08:00"
+        },
+        {
+            "Name": "nodejs",
+            "Info": "",
+            "Version": "26.2.0",
+            "Source": "main",
+            "Updated": "2026-05-21T22:07:07.6857005+08:00"
+        },
+        {
+            "Name": "opencode",
+            "Info": "",
+            "Version": "1.15.6",
+            "Source": "D:\\develop\\Scoop\\buckets\\main\\bucket\\opencode.json",
+            "Updated": "2026-05-21T22:07:31.1090712+08:00"
+        },
+        {
+            "Name": "pwsh",
+            "Info": "",
+            "Version": "7.6.1",
+            "Source": "main",
+            "Updated": "2026-04-24T14:34:34.3596895+08:00"
+        },
+        {
+            "Name": "python310",
+            "Info": "",
+            "Version": "3.10.11",
+            "Source": "versions",
+            "Updated": "2026-04-02T11:22:02.153088+08:00"
+        },
+        {
+            "Name": "python312",
+            "Info": "",
+            "Version": "3.12.10",
+            "Source": "versions",
+            "Updated": "2026-01-21T12:51:31.3173583+08:00"
+        },
+        {
+            "Name": "scoop-search",
+            "Info": "",
+            "Version": "2.1.0",
+            "Source": "main",
+            "Updated": "2026-03-25T20:42:33.3192764+08:00"
+        },
+        {
+            "Name": "starship",
+            "Info": "",
+            "Version": "1.25.1",
+            "Source": "main",
+            "Updated": "2026-05-10T10:31:36.6031189+08:00"
+        },
+        {
+            "Name": "uv",
+            "Info": "",
+            "Version": "0.11.15",
+            "Source": "main",
+            "Updated": "2026-05-21T11:39:14.5660972+08:00"
+        },
+        {
+            "Name": "vscode",
+            "Info": "",
+            "Version": "1.121.0",
+            "Source": "extras",
+            "Updated": "2026-05-21T22:16:35.9881261+08:00"
+        },
+        {
+            "Name": "wiztree",
+            "Info": "",
+            "Version": "4.31",
+            "Source": "extras",
+            "Updated": "2026-04-09T22:00:18.7185309+08:00"
+        },
+        {
+            "Name": "yt-dlp",
+            "Info": "",
+            "Version": "2026.03.17",
+            "Source": "main",
+            "Updated": "2026-03-18T11:12:14.5926771+08:00"
+        }
+    ],
+    "buckets": [
+        {
+            "Name": "main",
+            "Source": null,
+            "Updated": null,
+            "Manifests": 1545
+        },
+        {
+            "Name": "extras",
+            "Source": null,
+            "Updated": null,
+            "Manifests": 2302
+        },
+        {
+            "Name": "versions",
+            "Source": null,
+            "Updated": null,
+            "Manifests": 582
+        },
+        {
+            "Name": "nerd-fonts",
+            "Source": null,
+            "Updated": null,
+            "Manifests": 367
+        }
+    ]
+}

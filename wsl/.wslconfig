@@ -1,0 +1,11 @@
+[wsl2]
+networkingMode=nat
+dnsTunneling=true
+autoProxy=false
+firewall=true
+
+[experimental]
+autoMemoryReclaim=gradual
+sparseVhd=true
+# hostAddressLoopback 主要给 mirrored 用；NAT 下先关掉
+hostAddressLoopback=false

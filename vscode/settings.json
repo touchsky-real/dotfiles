@@ -1,0 +1,122 @@
+{
+    "[python]": {
+        "editor.formatOnType": true,
+        "diffEditor.ignoreTrimWhitespace": true,
+    },
+    "files.autoSave": "afterDelay",
+    "security.workspace.trust.untrustedFiles": "open",
+    "terminal.integrated.fontSize": 15,
+    "workbench.colorCustomizations": {
+        "editor.lineHighlightBackground": "#00000090",
+        "editor.lineHighlightBorder": "#ffffff30",
+    },
+    "editor.formatOnPaste": true,
+    "prettier.tabWidth": 4,
+    "files.trimTrailingWhitespace": true,
+    "window.openFilesInNewWindow": "on",
+    "window.openFoldersInNewWindow": "on",
+    "editor.unicodeHighlight.nonBasicASCII": false,
+    "workbench.startupEditor": "none",
+    "[plaintext]": {
+        "editor.unicodeHighlight.ambiguousCharacters": false,
+        "editor.unicodeHighlight.invisibleCharacters": false,
+    },
+    "files.autoGuessEncoding": true,
+    "editor.wordWrap": "on",
+    "editor.renderWhitespace": "boundary",
+    "python.REPL.enableREPLSmartSend": false,
+    "workbench.editorAssociations": {
+        "*.copilotmd": "vscode.markdown.preview.editor",
+        "*.xlsx": "default",
+        "*.md": "default",
+    },
+    "window.customTitleBarVisibility": "windowed",
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+    },
+    "[css]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+    },
+    "remote.SSH.remotePlatform": {
+        "*.gitpod.io": "linux",
+        "hwserver": "linux",
+    },
+    "C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: Microsoft, BreakBeforeBraces: Attach }",
+    "[markdown]": {
+        "editor.unicodeHighlight.ambiguousCharacters": false,
+        "editor.unicodeHighlight.invisibleCharacters": false,
+        "diffEditor.ignoreTrimWhitespace": false,
+        "editor.wordWrap": "on",
+        "editor.quickSuggestions": {
+            "comments": "off",
+            "strings": "off",
+            "other": "off",
+        },
+    },
+    "workbench.iconTheme": "vscode-icons",
+    "terminal.integrated.commandsToSkipShell": ["matlab.interrupt"],
+    "python.defaultInterpreterPath": "D:\\develop\\Scoop\\apps\\python312\\3.12.10\\python.exe",
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features",
+    },
+    "workbench.editor.empty.hint": "hidden",
+    "files.associations": {
+        "*.py": "python",
+    },
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "gitlens.views.scm.grouped.views": {
+        "commits": false,
+        "branches": false,
+        "remotes": false,
+        "stashes": false,
+        "tags": false,
+        "worktrees": false,
+        "contributors": false,
+        "repositories": false,
+        "searchAndCompare": false,
+        "launchpad": false,
+    },
+    "github.copilot.enable": {
+        "*": false,
+        "plaintext": false,
+        "markdown": false,
+        "scminput": false,
+    },
+    "launch": {
+        "configurations": [],
+    },
+    "explorer.confirmDelete": false,
+    "python.analysis.typeCheckingMode": "basic",
+    "intellicode.features.python.showCodeExamples": true,
+    "python.languageServer": "Pylance",
+    "workbench.secondarySideBar.defaultVisibility": "hidden",
+    "window.newWindowDimensions": "maximized",
+    "git.openRepositoryInParentFolders": "always",
+    //code runner配置
+    // 关键：解决无法输入的问题，改在终端运行
+    //"code-runner.runInTerminal": true,
+
+    // 运行前自动保存文件，防止运行旧代码
+    "code-runner.saveFileBeforeRun": true,
+
+    // 运行前清除上一次的输出，保持界面整洁
+    "code-runner.clearPreviousOutput": true,
+
+    // 针对特定语言自定义命令 (举例)
+    "code-runner.executorMap": {
+        // 让 Python 运行当前文件，而不是全局 python
+        "python": "$pythonPath -u $fullFileName",
+        // 编译 C++ 时支持 C++17 标准并解决中文乱码(Windows下)
+        "cpp": "cd $dir && g++ $fileName -o $fileNameWithoutExt -std=c++17 && $dir$fileNameWithoutExt",
+    },
+    "github.copilot.nextEditSuggestions.enabled": true,
+    "claudeCode.preferredLocation": "panel",
+    "specstory.cloudSync.enabled": "never",
+    "gitlens.ai.model": "vscode",
+    "gitlens.ai.vscode.model": "copilot:gpt-4.1",
+    "python-envs.defaultEnvManager": "ms-python.python:system",
+    "terminal.integrated.fontFamily": "CaskaydiaCove Nerd Font",
+    "terminal.integrated.fontLigatures.enabled": true,
+    "editor.unicodeHighlight.ambiguousCharacters": false,
+}
