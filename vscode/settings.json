@@ -115,8 +115,42 @@
     "specstory.cloudSync.enabled": "never",
     "gitlens.ai.model": "vscode",
     "gitlens.ai.vscode.model": "copilot:gpt-4.1",
-    "python-envs.defaultEnvManager": "ms-python.python:system",
     "terminal.integrated.fontFamily": "CaskaydiaCove Nerd Font",
     "terminal.integrated.fontLigatures.enabled": true,
     "editor.unicodeHighlight.ambiguousCharacters": false,
+    // 开启系统剪贴板同步（强烈推荐：这样在 VS Code 里用 y 复制的内容，可以直接粘贴到浏览器或其他软件中）
+  "vim.useSystemClipboard": true,
+
+  // 高亮搜索结果 (使用 / 搜索时)
+  "vim.hlsearch": true,
+
+  // 快捷键映射：双击 j 快速退出插入模式 (代替按 Esc 键，手不需要离开主键盘区)
+  "vim.insertModeKeyBindings": [
+    {
+      "before": ["j", "j"],
+      "after": ["<Esc>"]
+    }
+  ],
+
+  // 解决快捷键冲突：将部分控制权交还给 VS Code
+  "vim.handleKeys": {
+    "<C-c>": false, // 允许按 Ctrl+C 进行常规复制
+    "<C-v>": false, // 允许按 Ctrl+V 进行常规粘贴
+    "<C-f>": false, // 允许按 Ctrl+F 唤起 VS Code 自带的搜索框，而不是 Vim 的翻页
+    "<C-a>": false  // 允许按 Ctrl+A 全选
+},
+"explorer.fileNesting.patterns": {
+    "*.ts": "${capture}.js",
+    "*.js": "${capture}.js.map, ${capture}.min.js, ${capture}.d.ts",
+    "*.jsx": "${capture}.js",
+    "*.tsx": "${capture}.ts",
+    "tsconfig.json": "tsconfig.*.json",
+    "package.json": "package-lock.json, yarn.lock, pnpm-lock.yaml, bun.lockb, bun.lock",
+    "*.sqlite": "${capture}.${extname}-*",
+    "*.db": "${capture}.${extname}-*",
+    "*.sqlite3": "${capture}.${extname}-*",
+    "*.db3": "${capture}.${extname}-*",
+    "*.sdb": "${capture}.${extname}-*",
+    "*.s3db": "${capture}.${extname}-*"
+}
 }

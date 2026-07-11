@@ -1,226 +1,275 @@
 {
-    "apps": [
-        {
-            "Name": "7zip",
-            "Info": "",
-            "Version": "26.01",
-            "Source": "main",
-            "Updated": "2026-04-29T10:44:25.1107525+08:00"
-        },
-        {
-            "Name": "alacritty",
-            "Info": "",
-            "Version": "0.17.0",
-            "Source": "extras",
-            "Updated": "2026-04-08T17:03:28.0324575+08:00"
-        },
-        {
-            "Name": "aria2",
-            "Info": "",
-            "Version": "1.37.0-1",
-            "Source": "main",
-            "Updated": "2026-01-21T12:18:48.3501392+08:00"
-        },
-        {
-            "Name": "CascadiaCode-NF",
-            "Info": "",
-            "Version": "3.4.0",
-            "Source": "nerd-fonts",
-            "Updated": "2026-04-08T17:07:55.4360877+08:00"
-        },
-        {
-            "Name": "cc-switch",
-            "Info": "",
-            "Version": "3.15.0",
-            "Source": "extras",
-            "Updated": "2026-05-19T17:17:18.4224348+08:00"
-        },
-        {
-            "Name": "claude-code",
-            "Info": "",
-            "Version": "2.1.146",
-            "Source": "main",
-            "Updated": "2026-05-21T22:06:07.3309872+08:00"
-        },
-        {
-            "Name": "clink",
-            "Info": "",
-            "Version": "1.9.23",
-            "Source": "main",
-            "Updated": "2026-05-21T22:06:29.0000603+08:00"
-        },
-        {
-            "Name": "cloc",
-            "Info": "",
-            "Version": "2.08",
-            "Source": "main",
-            "Updated": "2026-02-28T20:26:01.9332396+08:00"
-        },
-        {
-            "Name": "codex",
-            "Info": "",
-            "Version": "0.132.0",
-            "Source": "main",
-            "Updated": "2026-05-21T22:06:55.517725+08:00"
-        },
-        {
-            "Name": "crystaldiskinfo",
-            "Info": "",
-            "Version": "9.9.0",
-            "Source": "extras",
-            "Updated": "2026-05-21T22:07:00.294261+08:00"
-        },
-        {
-            "Name": "dark",
-            "Info": "",
-            "Version": "3.14.1",
-            "Source": "main",
-            "Updated": "2026-01-21T12:51:04.5451837+08:00"
-        },
-        {
-            "Name": "deno",
-            "Info": "",
-            "Version": "2.7.14",
-            "Source": "main",
-            "Updated": "2026-04-29T10:54:37.2684882+08:00"
-        },
-        {
-            "Name": "everything",
-            "Info": "",
-            "Version": "1.4.1.1032",
-            "Source": "extras",
-            "Updated": "2026-02-28T20:26:11.3534685+08:00"
-        },
-        {
-            "Name": "ffmpeg",
-            "Info": "",
-            "Version": "8.1.1",
-            "Source": "main",
-            "Updated": "2026-05-10T10:31:12.7008265+08:00"
-        },
-        {
-            "Name": "geekuninstaller",
-            "Info": "",
-            "Version": "1.5.3.170",
-            "Source": "extras",
-            "Updated": "2026-01-21T13:15:54.0100933+08:00"
-        },
-        {
-            "Name": "git",
-            "Info": "",
-            "Version": "2.54.0",
-            "Source": "main",
-            "Updated": "2026-04-21T17:07:54.5144727+08:00"
-        },
-        {
-            "Name": "mpv",
-            "Info": "",
-            "Version": "0.41.0",
-            "Source": "extras",
-            "Updated": "2026-03-19T13:09:47.7686055+08:00"
-        },
-        {
-            "Name": "nodejs",
-            "Info": "",
-            "Version": "26.2.0",
-            "Source": "main",
-            "Updated": "2026-05-21T22:07:07.6857005+08:00"
-        },
-        {
-            "Name": "opencode",
-            "Info": "",
-            "Version": "1.15.6",
-            "Source": "D:\\develop\\Scoop\\buckets\\main\\bucket\\opencode.json",
-            "Updated": "2026-05-21T22:07:31.1090712+08:00"
-        },
-        {
-            "Name": "pwsh",
-            "Info": "",
-            "Version": "7.6.1",
-            "Source": "main",
-            "Updated": "2026-04-24T14:34:34.3596895+08:00"
-        },
-        {
-            "Name": "python310",
-            "Info": "",
-            "Version": "3.10.11",
-            "Source": "versions",
-            "Updated": "2026-04-02T11:22:02.153088+08:00"
-        },
-        {
-            "Name": "python312",
-            "Info": "",
-            "Version": "3.12.10",
-            "Source": "versions",
-            "Updated": "2026-01-21T12:51:31.3173583+08:00"
-        },
-        {
-            "Name": "scoop-search",
-            "Info": "",
-            "Version": "2.1.0",
-            "Source": "main",
-            "Updated": "2026-03-25T20:42:33.3192764+08:00"
-        },
-        {
-            "Name": "starship",
-            "Info": "",
-            "Version": "1.25.1",
-            "Source": "main",
-            "Updated": "2026-05-10T10:31:36.6031189+08:00"
-        },
-        {
-            "Name": "uv",
-            "Info": "",
-            "Version": "0.11.15",
-            "Source": "main",
-            "Updated": "2026-05-21T11:39:14.5660972+08:00"
-        },
-        {
-            "Name": "vscode",
-            "Info": "",
-            "Version": "1.121.0",
-            "Source": "extras",
-            "Updated": "2026-05-21T22:16:35.9881261+08:00"
-        },
-        {
-            "Name": "wiztree",
-            "Info": "",
-            "Version": "4.31",
-            "Source": "extras",
-            "Updated": "2026-04-09T22:00:18.7185309+08:00"
-        },
-        {
-            "Name": "yt-dlp",
-            "Info": "",
-            "Version": "2026.03.17",
-            "Source": "main",
-            "Updated": "2026-03-18T11:12:14.5926771+08:00"
-        }
-    ],
     "buckets": [
         {
             "Name": "main",
-            "Source": null,
-            "Updated": null,
-            "Manifests": 1545
+            "Source": "https://github.com/ScoopInstaller/Main.git",
+            "Updated": "2026-07-11T13:23:33+08:00",
+            "Manifests": 1608
         },
         {
             "Name": "extras",
-            "Source": null,
-            "Updated": null,
-            "Manifests": 2302
+            "Source": "https://github.com/ScoopInstaller/Extras",
+            "Updated": "2026-07-11T13:23:53+08:00",
+            "Manifests": 2344
         },
         {
             "Name": "versions",
-            "Source": null,
-            "Updated": null,
-            "Manifests": 582
+            "Source": "https://github.com/ScoopInstaller/Versions",
+            "Updated": "2026-07-11T14:29:52+08:00",
+            "Manifests": 592
         },
         {
             "Name": "nerd-fonts",
-            "Source": null,
-            "Updated": null,
+            "Source": "https://github.com/matthewjberger/scoop-nerd-fonts",
+            "Updated": "2026-06-28T02:09:10+08:00",
             "Manifests": 367
+        }
+    ],
+    "apps": [
+        {
+            "Updated": "2026-06-28T15:33:46.5553951+08:00",
+            "Info": "",
+            "Source": "main",
+            "Name": "7zip",
+            "Version": "26.02"
+        },
+        {
+            "Updated": "2026-04-08T17:03:28.0324575+08:00",
+            "Info": "",
+            "Source": "extras",
+            "Name": "alacritty",
+            "Version": "0.17.0"
+        },
+        {
+            "Updated": "2026-01-21T12:18:48.3501392+08:00",
+            "Info": "",
+            "Source": "main",
+            "Name": "aria2",
+            "Version": "1.37.0-1"
+        },
+        {
+            "Updated": "2026-04-08T17:07:55.4360877+08:00",
+            "Info": "",
+            "Source": "nerd-fonts",
+            "Name": "CascadiaCode-NF",
+            "Version": "3.4.0"
+        },
+        {
+            "Updated": "2026-07-03T20:38:59.7969945+08:00",
+            "Info": "",
+            "Source": "extras",
+            "Name": "cc-switch",
+            "Version": "3.16.5"
+        },
+        {
+            "Updated": "2026-07-11T15:25:35.9612116+08:00",
+            "Info": "",
+            "Source": "main",
+            "Name": "claude-code",
+            "Version": "2.1.207"
+        },
+        {
+            "Updated": "2026-06-28T15:34:09.8136359+08:00",
+            "Info": "",
+            "Source": "main",
+            "Name": "clink",
+            "Version": "1.9.28"
+        },
+        {
+            "Updated": "2026-07-07T21:46:25.6657077+08:00",
+            "Info": "",
+            "Source": "main",
+            "Name": "cloc",
+            "Version": "2.10"
+        },
+        {
+            "Updated": "2026-07-11T15:32:33.1096462+08:00",
+            "Info": "",
+            "Source": "main",
+            "Name": "codex",
+            "Version": "0.144.1"
+        },
+        {
+            "Updated": "2026-05-26T10:51:49.0645515+08:00",
+            "Info": "",
+            "Source": "extras",
+            "Name": "crystaldiskinfo",
+            "Version": "9.9.1"
+        },
+        {
+            "Updated": "2026-01-21T12:51:04.5451837+08:00",
+            "Info": "",
+            "Source": "main",
+            "Name": "dark",
+            "Version": "3.14.1"
+        },
+        {
+            "Updated": "2026-07-11T15:26:08.9362952+08:00",
+            "Info": "",
+            "Source": "main",
+            "Name": "deno",
+            "Version": "2.9.2"
+        },
+        {
+            "Updated": "2026-02-28T20:26:11.3534685+08:00",
+            "Info": "",
+            "Source": "extras",
+            "Name": "everything",
+            "Version": "1.4.1.1032"
+        },
+        {
+            "Updated": "2026-06-12T10:49:01.8196072+08:00",
+            "Info": "",
+            "Source": "main",
+            "Name": "fd",
+            "Version": "10.4.2"
+        },
+        {
+            "Updated": "2026-06-28T15:34:41.7704779+08:00",
+            "Info": "",
+            "Source": "main",
+            "Name": "ffmpeg",
+            "Version": "8.1.2"
+        },
+        {
+            "Updated": "2026-07-07T21:46:39.9328591+08:00",
+            "Info": "",
+            "Source": "main",
+            "Name": "fzf",
+            "Version": "0.74.0"
+        },
+        {
+            "Updated": "2026-01-21T13:15:54.0100933+08:00",
+            "Info": "",
+            "Source": "extras",
+            "Name": "geekuninstaller",
+            "Version": "1.5.3.170"
+        },
+        {
+            "Updated": "2026-07-03T20:39:43.7568779+08:00",
+            "Info": "",
+            "Source": "main",
+            "Name": "git",
+            "Version": "2.55.0.2"
+        },
+        {
+            "Updated": "2026-07-07T21:46:48.5700443+08:00",
+            "Info": "",
+            "Source": "extras",
+            "Name": "lazygit",
+            "Version": "0.63.0"
+        },
+        {
+            "Updated": "2026-06-10T16:55:59.9775314+08:00",
+            "Info": "",
+            "Source": "main",
+            "Name": "miktex",
+            "Version": "25.12"
+        },
+        {
+            "Updated": "2026-03-19T13:09:47.7686055+08:00",
+            "Info": "",
+            "Source": "extras",
+            "Name": "mpv",
+            "Version": "0.41.0"
+        },
+        {
+            "Updated": "2026-07-07T21:47:03.1680357+08:00",
+            "Info": "",
+            "Source": "main",
+            "Name": "neovim",
+            "Version": "0.12.4"
+        },
+        {
+            "Updated": "2026-07-11T15:27:13.5465958+08:00",
+            "Info": "",
+            "Source": "main",
+            "Name": "nodejs",
+            "Version": "26.5.0"
+        },
+        {
+            "Updated": "2026-07-11T15:27:48.3025445+08:00",
+            "Info": "",
+            "Source": "D:\\develop\\Scoop\\buckets\\main\\bucket\\opencode.json",
+            "Name": "opencode",
+            "Version": "1.17.18"
+        },
+        {
+            "Updated": "2026-06-10T16:52:39.2628642+08:00",
+            "Info": "",
+            "Source": "main",
+            "Name": "pandoc",
+            "Version": "3.10"
+        },
+        {
+            "Updated": "2026-07-07T21:50:27.4717785+08:00",
+            "Info": "",
+            "Source": "main",
+            "Name": "pwsh",
+            "Version": "7.6.3"
+        },
+        {
+            "Updated": "2026-06-13T21:40:51.0810971+08:00",
+            "Info": "",
+            "Source": "versions",
+            "Name": "python311",
+            "Version": "3.11.9"
+        },
+        {
+            "Updated": "2026-05-26T20:47:44.4437526+08:00",
+            "Info": "",
+            "Source": "main",
+            "Name": "ripgrep",
+            "Version": "15.1.0"
+        },
+        {
+            "Updated": "2026-03-25T20:42:33.3192764+08:00",
+            "Info": "",
+            "Source": "main",
+            "Name": "scoop-search",
+            "Version": "2.1.0"
+        },
+        {
+            "Updated": "2026-07-01T09:22:38.1171753+08:00",
+            "Info": "",
+            "Source": "main",
+            "Name": "starship",
+            "Version": "1.26.0"
+        },
+        {
+            "Updated": "2026-07-01T09:22:44.7543741+08:00",
+            "Info": "",
+            "Source": "main",
+            "Name": "tree-sitter",
+            "Version": "0.26.10"
+        },
+        {
+            "Updated": "2026-07-08T18:52:57.3481161+08:00",
+            "Info": "",
+            "Source": "main",
+            "Name": "uv",
+            "Version": "0.11.28"
+        },
+        {
+            "Updated": "2026-07-08T18:53:29.7253021+08:00",
+            "Info": "",
+            "Source": "extras",
+            "Name": "vscode",
+            "Version": "1.128.0"
+        },
+        {
+            "Updated": "2026-04-09T22:00:18.7185309+08:00",
+            "Info": "",
+            "Source": "extras",
+            "Name": "wiztree",
+            "Version": "4.31"
+        },
+        {
+            "Updated": "2026-07-07T21:51:12.2377027+08:00",
+            "Info": "",
+            "Source": "main",
+            "Name": "yt-dlp",
+            "Version": "2026.07.04"
         }
     ]
 }

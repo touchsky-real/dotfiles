@@ -9,6 +9,9 @@
 - Scoop apps/buckets
 - winget packages
 - WSL config
+- WSL `.zshrc`
+- AdGuard Browser Extension settings
+- Zashboard settings
 
 ## 同步本机配置到仓库
 
@@ -42,6 +45,25 @@ winget：
 ```
 New-Item -ItemType Directory -Path winget -Force
 winget export --output winget/packages.json --accept-source-agreements
+```
+
+WSL：
+
+```
+Copy-Item "$HOME\.wslconfig" wsl/.wslconfig
+wsl bash -lc 'cat ~/.zshrc' | Set-Content wsl/.zshrc
+```
+
+AdGuard Browser Extension：
+
+```
+Copy-Item "<导出的 adg_ext_settings*.json>" adguard/extension-settings.json
+```
+
+Zashboard：
+
+```
+Copy-Item "<导出的 zashboard-settings*.json>" zashboard/zashboard-settings.json
 ```
 
 ## 恢复到本机
@@ -104,4 +126,11 @@ $HOME\.dotfiles-backup
 
 ```
 bash install.sh
+```
+
+AdGuard Browser Extension 和 Zashboard 需要在各自界面中手动导入：
+
+```
+adguard/extension-settings.json
+zashboard/zashboard-settings.json
 ```

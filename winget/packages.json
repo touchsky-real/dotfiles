@@ -1,6 +1,6 @@
 {
 	"$schema" : "https://aka.ms/winget-packages.schema.2.0.json",
-	"CreationDate" : "2026-05-21T22:37:40.220-00:00",
+	"CreationDate" : "2026-07-11T15:54:07.588-00:00",
 	"Sources" : 
 	[
 		{
@@ -8,9 +8,6 @@
 			[
 				{
 					"PackageIdentifier" : "PBH-BTN.PeerBanHelper"
-				},
-				{
-					"PackageIdentifier" : "ShareX.ShareX"
 				},
 				{
 					"PackageIdentifier" : "AutoHotkey.AutoHotkey"
@@ -25,16 +22,13 @@
 					"PackageIdentifier" : "Daum.PotPlayer"
 				},
 				{
-					"PackageIdentifier" : "chrox.Readest"
-				},
-				{
 					"PackageIdentifier" : "Tencent.TencentMeeting"
 				},
 				{
 					"PackageIdentifier" : "DigitalScholar.Zotero"
 				},
 				{
-					"PackageIdentifier" : "yang991178.fluent-reader"
+					"PackageIdentifier" : "LeiGod.LeiGodAcc"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.VCRedist.2010.x64"
@@ -46,22 +40,40 @@
 					"PackageIdentifier" : "Microsoft.VCRedist.2008.x64"
 				},
 				{
-					"PackageIdentifier" : "Google.GoogleDrive"
-				},
-				{
-					"PackageIdentifier" : "Microsoft.OpenSSH.Preview"
+					"PackageIdentifier" : "Microsoft.VSTOR"
 				},
 				{
 					"PackageIdentifier" : "EpicGames.EpicGamesLauncher"
 				},
 				{
+					"PackageIdentifier" : "Google.GoogleDrive"
+				},
+				{
+					"PackageIdentifier" : "Apple.iTunes"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.OpenSSH.Preview"
+				},
+				{
 					"PackageIdentifier" : "ViGEm.ViGEmBus"
+				},
+				{
+					"PackageIdentifier" : "nabdev.iloader"
 				},
 				{
 					"PackageIdentifier" : "Nvidia.PhysX"
 				},
 				{
+					"PackageIdentifier" : "StirlingTools.StirlingPDF"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.GameInput"
+				},
+				{
 					"PackageIdentifier" : "Romanitho.Winget-AutoUpdate"
+				},
+				{
+					"PackageIdentifier" : "PuTTY.PuTTY"
 				},
 				{
 					"PackageIdentifier" : "Wiris.MathType.7"
@@ -97,46 +109,37 @@
 					"PackageIdentifier" : "Tencent.WeChat.Universal"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.VCRedist.2013.x64"
-				},
-				{
 					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.6"
-				},
-				{
-					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.8"
-				},
-				{
-					"PackageIdentifier" : "Microsoft.VCRedist.2012.x86"
-				},
-				{
-					"PackageIdentifier" : "Microsoft.DotNet.AspNetCore.8"
-				},
-				{
-					"PackageIdentifier" : "Python.Launcher"
-				},
-				{
-					"PackageIdentifier" : "Microsoft.VCRedist.2015+.x86"
-				},
-				{
-					"PackageIdentifier" : "Microsoft.Edge"
-				},
-				{
-					"PackageIdentifier" : "Microsoft.VCRedist.2008.x86"
-				},
-				{
-					"PackageIdentifier" : "Microsoft.VCRedist.2013.x86"
-				},
-				{
-					"PackageIdentifier" : "Microsoft.VCRedist.2010.x86"
-				},
-				{
-					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.9"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.VCRedist.2015+.x64"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.VCRedist.2012.x64"
+					"PackageIdentifier" : "Python.Launcher"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.VCRedist.2005.x86"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.8"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.VCRedist.2008.x86"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.Edge"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.VCRedist.2015+.x86"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.VCRedist.2010.x86"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.DotNet.AspNetCore.8"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.9"
 				},
 				{
 					"PackageIdentifier" : "Baidu.BaiduNetdisk"
@@ -166,7 +169,7 @@
 					"PackageIdentifier" : "Microsoft.OneDrive"
 				},
 				{
-					"PackageIdentifier" : "lyswhut.lx-music-desktop"
+					"PackageIdentifier" : "chrox.Readest"
 				},
 				{
 					"PackageIdentifier" : "LocalSend.LocalSend"
@@ -239,22 +242,7 @@
 				"Name" : "winget",
 				"Type" : "Microsoft.PreIndexed.Package"
 			}
-		},
-		{
-			"Packages" : 
-			[
-				{
-					"PackageIdentifier" : "XPFNZKSKLBP7RJ"
-				}
-			],
-			"SourceDetails" : 
-			{
-				"Argument" : "https://storeedgefd.dsx.mp.microsoft.com/v9.0",
-				"Identifier" : "StoreEdgeFD",
-				"Name" : "msstore",
-				"Type" : "Microsoft.Rest"
-			}
 		}
 	],
-	"WinGetVersion" : "1.28.240"
+	"WinGetVersion" : "1.29.280"
 }

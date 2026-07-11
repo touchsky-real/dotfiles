@@ -6,6 +6,10 @@ $null = scoop-search --hook | Invoke-Expression
 
 Invoke-Expression (&starship init powershell)
 
+function glog {
+    git log --graph --oneline --decorate --all
+}
+
 # 删除前一个词
 Set-PSReadLineKeyHandler -Key Ctrl+w -Function BackwardKillWord
 
