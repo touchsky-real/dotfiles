@@ -1,0 +1,24 @@
+{
+  "version": "2026.729.1529",
+  "rulesets": [
+    "+annoyances-cookies"
+  ],
+  "filteringModes": {
+    "none": [],
+    "basic": [],
+    "optimal": [
+      "all-urls"
+    ],
+    "complete": []
+  },
+  "customFilters": [
+    [
+      "youtube.com",
+      [
+        "#player-ads",
+        "ytd-rich-section-renderer:has(ytd-mini-game-card-view-model)",
+        "ytd-rich-shelf-renderer[is-shorts]"
+      ]
+    ]
+  ]
+}
